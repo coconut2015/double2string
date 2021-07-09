@@ -25,6 +25,10 @@
 	<name>double2string</name>
 	<description>Double2String</description>
 	<packaging>jar</packaging>
+	<url>https://github.com/coconut2015/double2string</url>
+	<scm>
+		<url>https://github.com/coconut2015/double2string.git</url>
+	</scm>
 	<licenses>
 		<license>
 			<name>Apache 2.0 License</name>
@@ -43,7 +47,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
