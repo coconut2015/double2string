@@ -27,6 +27,7 @@
 	<packaging>jar</packaging>
 	<url>https://github.com/coconut2015/double2string</url>
 	<scm>
+		<connection>scm:git:git://github.com/coconut2015/double2string.git</connection>
 		<url>https://github.com/coconut2015/double2string.git</url>
 	</scm>
 	<licenses>
@@ -109,6 +110,20 @@
 						<id>attach-javadocs</id>
 						<goals>
 							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
 						</goals>
 					</execution>
 				</executions>
