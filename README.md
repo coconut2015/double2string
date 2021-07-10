@@ -1,8 +1,8 @@
 # Double2String [![Build Status](https://circleci.com/gh/coconut2015/double2string.svg?style=shield)](https://app.circleci.com/pipelines/github/coconut2015/double2string)[![codecov](https://codecov.io/gh/coconut2015/double2string/branch/master/graph/badge.svg?token=fNdJPszCMB)](https://codecov.io/gh/coconut2015/double2string)[![Apache License, Version 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-This package only contains a single class
-``org.yuanheng.double2string.Double2String`` that contains two utility
-functions:
+This Java library only contains a single class
+[Double2String](https://javadoc.io/static/org.yuanheng/double2string/1.0.0/org/yuanheng/double2string/Double2String.html)
+that contains two utility functions:
 ``getDoubleString(double value)`` and ``getFloatString(float value)``.
 
 These two functions essentially return the equivalent of ``"%g"`` output of
