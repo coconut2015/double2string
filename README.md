@@ -10,6 +10,10 @@ C [printf](https://www.cplusplus.com/reference/cstdio/printf/) for 64-bit
 and 32-bit floating point values.  The resulting strings are compact
 representations of the floating values.
 
+# JavaDoc
+
+https://javadoc.io/doc/org.yuanheng/double2string/latest/index.html
+
 # Maven
 
 ```xml
