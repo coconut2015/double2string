@@ -10,6 +10,16 @@ C [printf](https://www.cplusplus.com/reference/cstdio/printf/) for 64-bit
 and 32-bit floating point values.  The resulting strings are compact
 representations of the floating values.
 
+# Maven
+
+```xml
+	<dependency>
+		<groupId>org.yuanheng</groupId>
+		<artifactId>double2string</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+```
+
 # Algorithm
 
 The algorithm and code used here are from
