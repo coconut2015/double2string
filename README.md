@@ -10,6 +10,12 @@ C [printf](https://www.cplusplus.com/reference/cstdio/printf/) for 64-bit
 and 32-bit floating point values.  The resulting strings are compact
 representations of the floating values.
 
+The necessity of this library is because Java's
+[printf](https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html#syntax)
+and NumberFormat do not have equivalent functionalities.  For instance, the
+output of ``System.out.printf ("%g", 1.1)`` is ``1.10000``.  The compact
+representation should be ``1.1``.
+
 # JavaDoc
 
 https://javadoc.io/doc/org.yuanheng/double2string/latest/index.html
