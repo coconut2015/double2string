@@ -12,9 +12,11 @@ representations of the floating values.
 
 The necessity of this library is because Java's
 [printf](https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html#syntax)
-and NumberFormat do not have equivalent functionalities.  For instance, the
-output of ``System.out.printf ("%g", 1.1)`` is ``1.10000``.  The compact
-representation should be ``1.1``.
+and
+[NumberFormat](https://docs.oracle.com/javase/8/docs/api/java/text/NumberFormat.html)
+do not have equivalent functionalities.  For instance, the output of
+``System.out.printf ("%g", 1.1)`` is ``1.10000``.  The compact representation
+should be ``1.1``.
 
 # JavaDoc
 
