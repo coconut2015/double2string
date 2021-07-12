@@ -1,4 +1,4 @@
-# Double2String [![Build Status](https://circleci.com/gh/coconut2015/double2string.svg?style=shield)](https://app.circleci.com/pipelines/github/coconut2015/double2string)[![codecov](https://codecov.io/gh/coconut2015/double2string/branch/master/graph/badge.svg?token=fNdJPszCMB)](https://codecov.io/gh/coconut2015/double2string)[![Apache License, Version 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+# Double2String [![Build Status](https://circleci.com/gh/coconut2015/double2string.svg?style=shield)](https://app.circleci.com/pipelines/github/coconut2015/double2string)[![codecov](https://codecov.io/gh/coconut2015/double2string/branch/master/graph/badge.svg?token=fNdJPszCMB)](https://codecov.io/gh/coconut2015/double2string)[![Apache License, Version 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)[![Maven Central](https://img.shields.io/maven-central/v/org.yuanheng/double2string.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22org.yuanheng%22%20AND%20a:%22double2string%22)[![javadoc](https://javadoc.io/badge2/org.yuanheng/double2string/javadoc.svg)](https://javadoc.io/doc/org.yuanheng/double2string)
 
 This Java library only contains a single class
 [Double2String](https://javadoc.io/static/org.yuanheng/double2string/1.0.0/org/yuanheng/double2string/Double2String.html)
@@ -17,10 +17,6 @@ and
 do not have equivalent functionalities.  For instance, the output of
 ``System.out.printf ("%g", 1.1)`` is ``1.10000``.  The compact representation
 should be ``1.1``.
-
-# JavaDoc
-
-https://javadoc.io/doc/org.yuanheng/double2string/latest/index.html
 
 # Maven
 
